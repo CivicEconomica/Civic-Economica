@@ -1,0 +1,35 @@
+.post h2 {
+  margin-bottom: 10px;
+  color: #0a1f44;
+}
+
+.post h3 {
+  margin-top: 25px;
+  color: #0a1f44;
+}
+
+.post p,
+.post ul {
+  margin: 15px 0;
+}
+
+.post ul {
+  padding-left: 20px;
+}
+
+.author-note {
+  margin-top: 40px;
+  font-style: italic;
+  color: #444;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

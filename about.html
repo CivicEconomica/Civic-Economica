@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Civic Economica</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+  <div class="logo-title">
+    <img src="CivicEconomicaLogo.png" alt="Civic Economica logo" class="site-logo" />
+    <div class="title-tagline">
+      <h1>Civic Economica</h1>
+      <p class="tagline">What Happened. Why It Matters.</p>
+    </div>
+  </div>
+    <nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Ellie, an A-level student with a strong interest in economics, politics, and public policy. I created <strong>Civic Economica</strong> as a personal initiative to explore major political and economic issues through independent research and critical analysis.
+      </p>
+
+      <h3>Why This Website?</h3>
+      <p>
+       My goal is to publish one in-depth article each week on topics such as UK fiscal policy, global trade, social inequality, and current affairs. This platform allows me to develop my ideas, strengthen my writing, and build a portfolio for university applications, particularly for courses in Economics, PPE, and related disciplines.
+      </p>
+
+      <h3>Academic Interests</h3>
+      <ul>
+        <li>Political Economy</li>
+        <li>Macroeconomics & Fiscal Policy</li>
+        <li>International Relations</li>
+        <li>Public Policy Analysis</li>
+      </ul>
+
+      <h3>UCAS Profile</h3>
+      <p>
+        I am applying to study PPE and Politics and International Relations at university. This blog forms part of my broader academic engagement, alongside wider reading, essay competitions, and participation in economics societies.
+      </p>
+
+      <p class="back-link"><a href="index.html">← Back to Home</a></p>
+    </section>
+  </main>
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('show');
+
+        
+        menuToggle.classList.toggle('active');
+    });
+    </script>
+  <footer>
+    <p>© 2025 Civic Economica | Created by Ellie Nenguke</p>
+  </footer>
+</body>
+</html>

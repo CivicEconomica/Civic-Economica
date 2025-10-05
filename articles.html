@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles | Civic Economica</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+   <header>
+  <div class="logo-title">
+    <img src="CivicEconomicaLogo.png" alt="Civic Economica logo" class="site-logo" />
+    <div class="title-tagline">
+      <h1>Civic Economica</h1>
+      <p class="tagline">What Happened. Why It Matters.</p>
+    </div>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+      
+  <main>
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Search articles..." />
+        </section>
+          <section class="highlight-article">
+        <h3>All Articles</h3>
+        <div class="article-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Official_portrait_of_Yuan_Yang_MP_crop_2.jpg/250px-Official_portrait_of_Yuan_Yang_MP_crop_2.jpg" alt="Official portrait of Yuan Yang MP" />
+          <div class="article-content">
+            <h4 class="article-title">
+              <a href="Right-wing_populism_rises_in_traditional_Labour_Areas_Amid_Economic_And_Cultural_Anxieties.html">
+                Right-wing populism rises in traditional Labour areas amid economic and cultural anxieties
+              </a>
+            </h4>
+            <p class="article-description">
+              As economic challenges and cultural anxieties grow, traditional political loyalties in working class communities are shifting – and the consequences are reshaping British politics.
+            </p>
+            <span class="meta">DATE · Politics & Economics · 5 min read</span>
+          </div>
+        </div>
+         <!-- Add more .article-card blocks here -->
+      </section>
+  </main>
+
+   <script>
+    const searchInput = document.getElementById("searchInput");
+    const articleCards = document.querySelectorAll(".article-card");
+
+    searchInput.addEventListener("keyup", function () {
+      const filter = searchInput.value.toLowerCase();
+
+      articleCards.forEach(card => {
+        const title = card.querySelector(".article-title").innerText.toLowerCase();
+        const description = card.querySelector(".article-description").innerText.toLowerCase();
+
+        if (title.includes(filter) || description.includes(filter)) {
+          card.style.display = "flex"; 
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+  <footer>
+    <p>© 2025 Civic Economica | Created by Ellie Nenguke</p>
+  </footer>
+</body>
+</html>
