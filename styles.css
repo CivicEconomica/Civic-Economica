@@ -727,26 +727,25 @@ button:hover {
 
 .content-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* pushes main left, sidebar right */
   align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
   gap: 40px;
-  flex: 1;
 }
 
 .homepage {
   flex: 3;
   max-width: 100%;
+  text-align: left; /* ensures text stays left-aligned */
 }
 
 .sidebar {
   flex: 1;
   max-width: 300px;
   min-width: 250px;
-  margin-left: auto; /* Adjust this as needed */
-}
+  margin-left: auto; /* keeps it on the right */
 
 
 .ad-banner {
@@ -954,4 +953,5 @@ header {
 .sources th {
   background: #e0e0e0;
 }
+
 
