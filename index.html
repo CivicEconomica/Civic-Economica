@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,14 +8,13 @@
 </head>
 <body>
   <header>
-  <div class="logo-title">
-    <img src="CivicEconomicaLogo.png" alt="Civic Economica logo" class="site-logo" />
-    <div class="title-tagline">
-      <h1>Civic Economica</h1>
-      <p class="tagline">What Happened. Why It Matters. Fortnightly.</p>
+    <div class="logo-title">
+      <img src="CivicEconomicaLogo.png" alt="Civic Economica logo" class="site-logo" />
+      <div class="title-tagline">
+        <h1>Civic Economica</h1>
+        <p class="tagline">What Happened. Why It Matters. Fortnightly.</p>
+      </div>
     </div>
-  </div>
-
 
     <nav>
       <ul>
@@ -25,13 +23,13 @@
         <li><a href="articles.html">Articles</a></li>
         <li><a href="newsletter.html">Newsletter</a></li>
         <li><a href="contact.html">Contact</a></li>
-
       </ul>
     </nav>
   </header>
 
-  <!-- Start flex container for main + sidebar -->
+  <!-- Flex container: main content left, sidebar right -->
   <div class="content-wrapper">
+    <!-- LEFT COLUMN -->
     <main class="homepage">
       <section class="intro">
         <h2>Welcome</h2>
@@ -43,33 +41,19 @@
 
       <section class="highlight-article">
         <h3>Latest Feature</h3>
-          <div class="article-content">
-            <h4>
-              <a href="The_Digital_Border_Within.html">
-               The Digital Border Within: How the UK’s Digital IDs Could Reshape the Shadow Economy
-              </a>
-            </h4>
-            <p>
-              The UK is introducing digital IDs to crack down on illegal work and strengthen borders. Prime Minister Sir Keir Starmer called them “an enormous opportunity for the UK,” while Cabinet Office Minister Lisa Nandy said they would make a “significant dent” in illegal employment and protect lawful workers.
-            </p>
-            <span class="meta">25/10/2025 · Politics & Economics · 5 min read</span>
-          </div>
+        <div class="article-content">
+          <h4>
+            <a href="The_Digital_Border_Within.html">
+              The Digital Border Within: How the UK’s Digital IDs Could Reshape the Shadow Economy
+            </a>
+          </h4>
+          <p>
+            The UK is introducing digital IDs to crack down on illegal work and strengthen borders. Prime Minister Sir Keir Starmer called them “an enormous opportunity for the UK,” while Cabinet Office Minister Lisa Nandy said they would make a “significant dent” in illegal employment and protect lawful workers.
+          </p>
+          <span class="meta">25/10/2025 · Politics & Economics · 5 min read</span>
         </div>
       </section>
-      
-    <!-- Sidebar with ad banner -->
-    <aside class="sidebar">
-      <div class="ad-banner" style="margin-top: 30px;">
-        <h4>Want to advertise here?</h4>
-        <p>
-        Reach engaged readers who care about thoughtful, quality content. Simple pricing, prominent placement.
-        </p>
-        <a href="mailto:civiceconomica@gmail.com" class="cta-button" style="margin-top: 10px; display: inline-block;">
-        Run an Ad →
-        </a>
-        </div>
-    </aside>
-      
+
       <section class="about-snippet">
         <h3>What is Civic Economica?</h3>
         <p>
@@ -77,6 +61,20 @@
         </p>
       </section>
     </main>
+
+    <!-- RIGHT SIDEBAR -->
+    <aside class="sidebar">
+      <div class="ad-banner" style="margin-top: 30px;">
+        <h4>Want to advertise here?</h4>
+        <p>
+          Reach engaged readers who care about thoughtful, quality content. Simple pricing, prominent placement.
+        </p>
+        <a href="mailto:civiceconomica@gmail.com" class="cta-button" style="margin-top: 10px; display: inline-block;">
+          Run an Ad →
+        </a>
+      </div>
+    </aside>
+  </div>
 
   <!-- Support section -->
   <section class="support">
@@ -90,23 +88,20 @@
       />
     </a>
   </section>
-<!-- Google Analytics (GA4) -->
-<script async src="GOOGLE ANALYTICS LINK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'MEASUREMENTID');
-  gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
-</script>
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="GOOGLE ANALYTICS LINK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'MEASUREMENTID');
+    gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
+  </script>
 
   <footer>
     <p>© 2025 Civic Economica | Created by Ellie Nenguke</p>
   </footer>
 </body>
-
 </html>
-
-
-
 
