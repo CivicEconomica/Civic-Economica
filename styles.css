@@ -912,4 +912,44 @@ header {
   font-size: 1rem;
   color: #ffffff;
   margin-top: -10px;
+
+}
+.sources {
+  margin: 3rem 0;
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.sources h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* Responsive table wrapper */
+.sources .table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+}
+
+.sources table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  min-width: 600px; /* ensures horizontal scroll on small screens */
+}
+
+.sources th, .sources td {
+  border: 1px solid #ccc;
+  padding: 0.4rem;
+  text-align: left;
+}
+
+.sources th {
+  background: #e0e0e0;
 }
