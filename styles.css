@@ -232,21 +232,27 @@ nav ul li a:hover {
   font-style: italic;
   color: #333;
 }
-.cta-button {
+
+.cta-button,
+button,
+.signup-form button {
   display: inline-block;
-  padding: 12px 24px;
+  padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 2vw, 2rem);
   background-color: #0a1f44;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
   transition: background 0.3s;
+  cursor: pointer;
 }
 
-.cta-button:hover {
+.cta-button:hover,
+button:hover,
+.signup-form button:hover {
   background-color: #163b7c;
 }
-
 /* =======================================
    ABOUT / CONTACT / MISC SECTIONS
 ======================================= */
@@ -413,6 +419,7 @@ footer {
     margin-top: 20px;
   }
 }
+
 
 
 
