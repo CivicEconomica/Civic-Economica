@@ -121,7 +121,7 @@ nav ul li a:hover {
 
 .homepage {
   flex: 3;
-  max-width: 100%;
+  max-width: 75%;
   text-align: left;
 }
 
@@ -419,6 +419,7 @@ footer {
     margin-top: 20px;
   }
 }
+
 
 
 
