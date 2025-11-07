@@ -232,6 +232,20 @@ nav ul li a:hover {
   font-style: italic;
   color: #333;
 }
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0a1f44;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #163b7c;
+}
 
 /* =======================================
    ABOUT / CONTACT / MISC SECTIONS
@@ -398,30 +412,8 @@ footer {
   .back-link {
     margin-top: 20px;
   }
-   /* --- Restore CTA Buttons (Read Articles + Run an Ad) --- */
-
-   .cta-button {
-     display: inline-block;
-     padding: 12px 24px;
-     background-color: #0a1f44; /* deep navy blue */
-     color: #ffffff !important;
-     text-decoration: none !important;
-     border-radius: 6px;
-     font-weight: bold;
-     font-size: 1rem;
-     transition: background-color 0.3s ease, transform 0.2s ease;
-     margin-top: 1em;
-     border: none;
-     cursor: pointer;
-   }
-   
-   .cta-button:hover {
-     background-color: #163b7c; /* slightly lighter navy */
-     text-decoration: none !important;
-     transform: translateY(-2px);
-   }
-
 }
+
 
 
 
