@@ -124,7 +124,15 @@ nav ul li a:hover {
   max-width: 75%;
   text-align: left;
 }
+/* Add spacing between homepage sections */
+.homepage section {
+  margin-bottom: clamp(3rem, 6vw, 5rem); /* responsive spacing */
+}
 
+/* Optional: slightly smaller margin for the last section */
+.homepage section:last-of-type {
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+}
 .sidebar {
   flex: 1;
   max-width: 300px;
@@ -419,6 +427,7 @@ footer {
     margin-top: 20px;
   }
 }
+
 
 
 
