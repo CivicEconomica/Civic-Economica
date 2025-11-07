@@ -237,13 +237,13 @@ nav ul li a:hover {
 button,
 .signup-form button {
   display: inline-block;
-  padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 2vw, 2rem);
+  padding: clamp(0.4rem, 0.8vw, 0.8rem) clamp(0.8rem, 1.5vw, 1.5rem);
   background-color: #0a1f44;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
-  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
   transition: background 0.3s;
   cursor: pointer;
 }
@@ -419,6 +419,7 @@ footer {
     margin-top: 20px;
   }
 }
+
 
 
 
