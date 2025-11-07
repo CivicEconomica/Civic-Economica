@@ -38,16 +38,21 @@ nav ul {
   justify-content: center;
   background-color: #071731;
   padding: 10px 0;
+  flex-wrap: wrap;       /* allow items to wrap to next line on small screens */
+  overflow-x: auto;      /* allow horizontal scroll if items overflow */
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  gap: 10px;             /* small space between items */
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  white-space: nowrap;   /* prevent text from breaking onto multiple lines */
 }
 
 nav ul li a:hover {
@@ -489,7 +494,18 @@ button:hover {
   body {
     font-size: 14px;
   }
+  nav ul {
+    justify-content: flex-start; /* align left on tiny screens */
+    padding: 10px 5px;
+  }
 
+  nav ul li {
+    margin: 0 8px;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem; /* slightly smaller text */
+  }
   /* Make buttons full width */
   button {
     width: 100%;
@@ -953,4 +969,5 @@ header {
 .sources th {
   background: #e0e0e0;
 }
+
 
