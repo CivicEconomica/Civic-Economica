@@ -70,17 +70,27 @@
 
       emailjs.sendForm("service_va3cbdi", "template_9u0531r", this)
         .then(function() {
-          document.getElementById("form-response").textContent = "✅ Message sent successfully!";
+          document.getElementById("form-response").textContent = "Message sent successfully!";
           document.getElementById("contact-form").reset();
         }, function(error) {
-          document.getElementById("form-response").textContent = "❌ Failed to send. Please try again.";
+          document.getElementById("form-response").textContent = "Failed to send. Please try again.";
           console.error("EmailJS error:", error);
         });
     });
   </script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YK502VTQN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8YK502VTQN');
+</script>
 </body>
 
 </html>
+
 
 
 
