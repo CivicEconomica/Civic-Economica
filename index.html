@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% include analytics.html %}
+  {% include head.html %}
+  {% include head/custom.html %}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
@@ -84,31 +87,23 @@
       />
     </a>
   </section>
-
-  <!-- Google Analytics (GA4) -->
-  <script async src="GOOGLE ANALYTICS LINK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-8YK502VTQN');
-    gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
-  </script>
-
   <footer>
     <p>© 2025 Civic Economica | Created by Ellie Nenguke</p>
   </footer>
-  <script>
-  const menuToggle = document.getElementById('mobile-menu');
-  const nav = document.querySelector('nav ul');
 
-  menuToggle.addEventListener('click', () => {
-    nav.classList.toggle('show');
-    menuToggle.classList.toggle('active');
-  });
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YK502VTQN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8YK502VTQN');
 </script>
+
 </body>
 </html>
+
 
 
 
