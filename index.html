@@ -6,6 +6,15 @@
   <title>Home</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+<script>
+  const popup = document.getElementById("break-popup");
+  const closeBtn = document.querySelector(".popup-close");
+
+  closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+</script>
+
 <body>
   <header>
     <h1>Civic Economica</h1>
@@ -97,9 +106,22 @@
 
   gtag('config', 'G-8YK502VTQN');
 </script>
+<!-- Break Announcement Popup -->
+<div id="break-popup" class="popup-overlay">
+  <div class="popup-box">
+    <button class="popup-close" aria-label="Close popup">&times;</button>
+    <h2>Posting Pause</h2>
+    <p>
+      I’m currently taking a short break from publishing new articles.
+      Thank you for your patience and continued support — feel free to explore
+      the site and past pieces in the meantime.
+    </p>
+  </div>
+</div>
 
 </body>
 </html>
+
 
 
 
