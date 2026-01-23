@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transport, Inequality and the Cost of Going Green</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Civic Economica</h1>
+    <p class="tagline">What Happened. Why It Matters. Fortnightly.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+   <main>
+    <article class="article-page">
+          <!-- Featured Image -->
+      <div class="featured-image">
+
+      </div>
+      <h2 class="headline">Transport, Inequality and the Cost of Going Green</h2>
+      <p class="article-meta">By Ellie Nenguke · 2/1/2026 · Politics & Economics· <span class="reading-time"> 6 min read</span></p>
+
+      <p class="intro">
+      Transport policy is rarely discussed as a question of inequality. Yet in the UK, lower-income households consistently spend a larger share of their income on transport than wealthier households, sometimes twice as much, particularly where car ownership or long commutes are unavoidable. As councils push to decarbonise transport systems, the risk is that policies designed to cut emissions end up raising costs for those least able to absorb them.
+      </p>
+
+      <p>
+       In an interview, John Ennis, The Councillor for Climate Strategy and Transport for Reading, outlined how Reading Borough Council is attempting to promote sustainable transport while avoiding regressive outcomes. His responses highlight a broader tension in climate and transport policy: how to reduce car dependency and emissions without exacerbating existing economic inequalities.
+      </p>
+      
+      <p>
+      Transport is a fixed necessity rather than a discretionary expense. For households on lower incomes, this makes price increases particularly painful. Public transport fares, fuel costs and parking charges all fall more heavily on those with fewer alternatives, especially in areas where employment, education and healthcare are not easily accessible without a car.
+      </p>
+      
+      <p>
+      In Reading, a significant share of residents do not own a car and rely heavily on buses. Ennis emphasised that this reality shapes council priorities, noting that “quite a few percent of people don’t own a car in Reading, so they rely on public transport. We try and tailor the bus fare to them.” The council has focused on suppressing bus fares and maintaining frequent services, particularly in areas with higher reliance on public transport.
+      </p>
+
+      <p> 
+      Bus fares in Reading have been held at relatively low levels for extended periods, with regular users benefiting from discounted ticket bundles rather than expensive single fares. This approach reflects an implicit redistributive logic, encouraging frequent use while protecting those who depend on buses daily for work. However, this pricing structure also exposes a familiar inequality. Those who can afford to buy tickets in advance benefit most, while occasional or irregular users, often those with unstable work patterns, face higher per-journey costs. Even when public transport is affordable on average, access to its lowest prices still depends on financial flexibility.
+      </p>
+
+      <p> 
+      One distinctive feature of Reading’s transport system is public ownership. Unlike many UK cities, the local bus company is council-owned and operates on a not-for-profit basis. As Ennis put it, “We own the bus company. It’s not for profit — every penny goes back into the bus. It’s not like private operators where profits go to shareholders.” From a political economy perspective, ownership matters. Public ownership reduces pressure to maximise fares and enables cross-subsidisation between routes, improving access in lower-income areas. It also allows transport policy to prioritise social outcomes alongside efficiency.
+      </p>
+
+      <p>
+      Yet even publicly owned systems face constraints. Rising fuel prices, labour costs and infrastructure investment all place upward pressure on fares. Maintaining affordability therefore becomes a political choice, often requiring councils to accept lower returns or redirect funding from other priorities.
+      </p>
+
+      <p>
+       The most controversial element of sustainable transport policy is emissions-based charging. Low-emission zones and parking charges are often criticised as disproportionately affecting working-class households who rely on older vehicles. Ennis rejected this characterisation, arguing that “many of the older cars actually are not high emitting. It’s the big ‘Chelsea tractors’ and large vehicles that are charged the most.” Reading’s emissions-based parking system exempts around half of vehicles entirely, with charges rising only for cars exceeding specific emissions thresholds. 
+      </p>
+
+      <p>
+      This design attempts to shift the burden upward rather than downward, aligning environmental incentives with income distribution. However, the effectiveness of such systems depends on accurate assumptions about vehicle ownership. While luxury SUVs are more common among higher-income households, some lower-income families still rely on larger vehicles for practical reasons, particularly where public transport is unsuitable for childcare, caring responsibilities or shift work.
+      </p>
+      
+      <p>
+      Cycling and walking are often presented as universal solutions, but access remains uneven. Ennis acknowledged that while many areas of Reading are cycle-friendly, others are not, limiting uptake. Infrastructure gaps disproportionately affect lower-income residents, who may lack access to safe routes, secure storage or flexible work hours. Similarly, digital systems for parking and transport management assume widespread access to smartphones and digital literacy. While Ennis rejected the idea that older residents are systematically excluded, the transition to digital-first systems still risks marginalising those with limited access to technology.
+      </p>
+
+      <p>
+      The interview reveals a central challenge facing local governments: climate policy is also economic policy. Decisions about fares, charges and infrastructure shape who bears the costs of transition and who captures its benefits. Reading’s approach reflects an attempt to balance environmental objectives with social equity. By prioritising public ownership, suppressing fares and avoiding blanket congestion charges, the council aims to reduce emissions without pricing people out of mobility. As Ennis explained, “We’re not hitting people with ultra-low emission or congestion charges, because that’s just charging everybody to come into town.”  
+      </p>
+
+      <p>
+      Sustainable transport policy sits at the intersection of climate action and economic justice. While emissions reduction is essential, the methods used to achieve it carry distributional consequences that cannot be ignored. Lower-income households already face higher relative transport costs and poorly designed interventions risk reinforcing this imbalance. The Reading case illustrates both the potential and the limits of local policy. Public transport can reduce inequality, but only if it is affordable, reliable and genuinely accessible. As councils across the UK accelerate their climate strategies, the challenge will be ensuring that the transition to greener transport does not become another driver of economic exclusion.  
+      </p>
+      
+
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YK502VTQN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8YK502VTQN');
+</script>
